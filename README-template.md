@@ -46,6 +46,13 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+### Questions
+
+- How should we define the height of the component? Should the button be visible on smaller screens like mobile?
+- Which is the best set to define the headings in this component? Should we use headings?
+- Is is better to use class name based on the color or the content when it comes to the summary boxes?
+- What do the challenge mean with focus stace? Should focus state be the same as hover?
+
 ### Built with
 
 - Semantic HTML5 markup
