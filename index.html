@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="results">
+      <h1 class="results__title">Your Result</h1>
+
+      <!-- 140x140 -->
+      <div class="results__score">
+        <span class="results__score-lg">76</span>
+        <span class="results__score-sm">of 100</span>
+      </div>
+    
+      <div class="results__secondary">Great</div>
+      <div class="results__desc">You scored higher than 65% of the people who have taken these tests.</div>
+    </div>
+    <div class="summary">
+      <h2 class="summary__title">Summary</h2>
+      
+      <div class="summary__box summary__box--red">
+        <div class="summary__box-title">Reaction</div>
+        <div class="summary__box-score"><span class="text-bold">80</span> / 100</div>
+      </div>
+      
+      <div class="summary__box summary__box--yellow">
+        <div class="summary__box-title">Memory</div>
+        <div class="summary__box-score"><span class="text-bold">92</span> / 100</div>
+      </div>
+      
+      <div class="summary__box summary__box--green">
+        <div class="summary__box-title">Verbal</div>
+        <div class="summary__box-score"><span class="text-bold">61</span> / 100</div>
+      </div>
+      
+      <div class="summary__box summary__box--blue">
+        <div class="summary__box-title">Visual</div>
+        <div class="summary__box-score"><span class="text-bold">72</span> / 100</div>
+      </div>
+    </div>
+    <button class="btn">Continue</button>
+  </main>
+
+  <!--<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.-->
+  </div>
+</body>
+</html>
